@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/Todo/images/champagne-glass.png);
+    background-image: url(images/champagne-glass.png);
     display: flex;
     flex-wrap: wrap;
     margin-top: 2em;
