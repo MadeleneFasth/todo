@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/Todo/images/champagne-glass.png);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.todo-container {
+    width: 95%;
+    background-color: #F7E7CE;
+    border-radius: .2em;
+    opacity: 90%;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    margin: .1em;
+    text-align: center;
+    font-size: 3em;
+}
+h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #492f05;
+    margin: .2em;
+    font-size: 2em;
+}
+
+li {
+    background-color: white;
+    opacity: 95%;
+}
+
+p {
+    margin: .5em;
+    color: #5f4010;
+}
+
+.input-div {
+ position: absolute;
+ bottom: 0;
+ height: 3.5em;
+ width: 98%;
+ display: flex;
+ justify-content: space-around;
+}
+
+.todo-input{
+    flex: 1 1 70%;
+    border-radius: em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    padding-left: .3em;
+}
+
+.button {
+    flex: 1 1 30%;
+    background-color: #F7E7CE;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+/* .new-todos{
+    background-color: aliceblue;
+} */
